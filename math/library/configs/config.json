@@ -1,0 +1,68 @@
+{
+    "workingName": "Star Gazing",
+    "frontendConfig": {
+        "file": "fe_config.json",
+        "sha256": "a9ad4c049bff116ea9705c898be0575c5dd74ac61d11580bf9f6427ee1d5f670"
+    },
+    "gameID": "star_gazing",
+    "rtp": 97.0,
+    "betDenomination": 1000,
+    "minDenomination": 10,
+    "providerNumber": 0,
+    "standardForceFile": {
+        "file": "force.json",
+        "sha256": "3c1616c4dea38dab2e4d6f7e62c3b3bc12d60e073ece4806c56b412e6dcf900b"
+    },
+    "bookShelfConfig": [
+        {
+            "name": "base",
+            "tables": [
+                {
+                    "file": "lookUpTable_base_0.csv",
+                    "sha256": "aae8f8ec26d7c7bc4d827b110b5536d588b835d4780f24c7d2332f9edf6b74fb"
+                }
+            ],
+            "cost": 1.0,
+            "rtp": 0.97,
+            "std": 10.71,
+            "bookLength": 10000,
+            "feature": true,
+            "autoEndRoundDisabled": false,
+            "buyBonus": false,
+            "maxWin": 5000,
+            "booksFile": {
+                "file": "books_base.jsonl.zst",
+                "sha256": "ac75e54e4c5222e47467f522ee0f25f72e516eba02562dc8351ec9f0a2ef23d1"
+            },
+            "forceFile": {
+                "file": "force_record_base.json",
+                "sha256": "3d971b6c5ea22e764621b8dbe8e38a506cb125028b4513f5b2ec57730c3fce69"
+            }
+        },
+        {
+            "name": "bonus",
+            "tables": [
+                {
+                    "file": "lookUpTable_bonus_0.csv",
+                    "sha256": "4ad629f1b4e707f68f384cceb803e75bc6c1a4fb66068083f93af6a4212d2666"
+                }
+            ],
+            "cost": 500,
+            "rtp": 0.97,
+            "std": 1.11,
+            "bookLength": 10000,
+            "feature": true,
+            "autoEndRoundDisabled": false,
+            "buyBonus": true,
+            "maxWin": 5000,
+            "booksFile": {
+                "file": "books_bonus.jsonl.zst",
+                "sha256": "35982a1f16172a2a8aeb26a0f5172eefcabbe9ee619b4db54694d1f4558824db"
+            },
+            "forceFile": {
+                "file": "force_record_bonus.json",
+                "sha256": "dd972df5235219ce4f81cdc0b55503be92f7c999e2aafb6631cec8b742c1758e"
+            }
+        }
+    ]
+}

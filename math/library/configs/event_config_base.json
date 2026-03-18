@@ -1,0 +1,463 @@
+{
+    "reveal": {
+        "type": "reveal",
+        "board": [
+            [
+                {
+                    "name": "JUP"
+                },
+                {
+                    "name": "PLU"
+                },
+                {
+                    "name": "SUN",
+                    "scatter": true
+                },
+                {
+                    "name": "PLU"
+                },
+                {
+                    "name": "MER"
+                },
+                {
+                    "name": "MER"
+                },
+                {
+                    "name": "MER"
+                }
+            ],
+            [
+                {
+                    "name": "PLU"
+                },
+                {
+                    "name": "SAT"
+                },
+                {
+                    "name": "MAR"
+                },
+                {
+                    "name": "MAR"
+                },
+                {
+                    "name": "MET",
+                    "wild": true
+                },
+                {
+                    "name": "EAR"
+                },
+                {
+                    "name": "MER"
+                }
+            ],
+            [
+                {
+                    "name": "PLU"
+                },
+                {
+                    "name": "PLU"
+                },
+                {
+                    "name": "EAR"
+                },
+                {
+                    "name": "MAR"
+                },
+                {
+                    "name": "URA"
+                },
+                {
+                    "name": "NEP"
+                },
+                {
+                    "name": "MET",
+                    "wild": true
+                }
+            ],
+            [
+                {
+                    "name": "VEN"
+                },
+                {
+                    "name": "SAT"
+                },
+                {
+                    "name": "MAR"
+                },
+                {
+                    "name": "EAR"
+                },
+                {
+                    "name": "NEP"
+                },
+                {
+                    "name": "SUN",
+                    "scatter": true
+                },
+                {
+                    "name": "NEP"
+                }
+            ],
+            [
+                {
+                    "name": "PLU"
+                },
+                {
+                    "name": "JUP"
+                },
+                {
+                    "name": "EAR"
+                },
+                {
+                    "name": "MAR"
+                },
+                {
+                    "name": "NEP"
+                },
+                {
+                    "name": "PLU"
+                },
+                {
+                    "name": "URA"
+                }
+            ]
+        ],
+        "paddingPositions": [
+            110,
+            62,
+            86,
+            115,
+            78
+        ],
+        "gameType": "basegame",
+        "anticipation": [
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    "winInfo": {
+        "type": "winInfo",
+        "totalWin": 80,
+        "wins": [
+            {
+                "symbol": "MAR",
+                "clusterSize": 4,
+                "win": 80,
+                "positions": [
+                    {
+                        "reel": 1,
+                        "row": 2
+                    },
+                    {
+                        "reel": 1,
+                        "row": 3
+                    },
+                    {
+                        "reel": 2,
+                        "row": 3
+                    },
+                    {
+                        "reel": 1,
+                        "row": 4
+                    }
+                ],
+                "meta": {
+                    "globalMult": 1,
+                    "clusterMult": 1,
+                    "winWithoutMult": 80,
+                    "overlay": {
+                        "reel": 1,
+                        "row": 3
+                    }
+                }
+            }
+        ]
+    },
+    "updateTumbleWin": {
+        "type": "updateTumbleWin",
+        "amount": 80
+    },
+    "tumbleBoard": {
+        "type": "tumbleBoard",
+        "newSymbols": [
+            [],
+            [
+                {
+                    "name": "PLU"
+                },
+                {
+                    "name": "VEN"
+                },
+                {
+                    "name": "MAR"
+                }
+            ],
+            [
+                {
+                    "name": "SAT"
+                }
+            ],
+            [],
+            []
+        ],
+        "explodingSymbols": [
+            {
+                "reel": 1,
+                "row": 2
+            },
+            {
+                "reel": 1,
+                "row": 3
+            },
+            {
+                "reel": 1,
+                "row": 4
+            },
+            {
+                "reel": 2,
+                "row": 3
+            }
+        ]
+    },
+    "setWin": {
+        "type": "setWin",
+        "amount": 80,
+        "winLevel": 2
+    },
+    "setTotalWin": {
+        "type": "setTotalWin",
+        "amount": 80
+    },
+    "finalWin": {
+        "type": "finalWin",
+        "amount": 80
+    },
+    "freeSpinTrigger": {
+        "type": "freeSpinTrigger",
+        "bonusType": "cosmicBreak",
+        "totalFs": 10,
+        "positions": [
+            {
+                "reel": 0,
+                "row": 3
+            },
+            {
+                "reel": 1,
+                "row": 4
+            },
+            {
+                "reel": 2,
+                "row": 5
+            },
+            {
+                "reel": 3,
+                "row": 1
+            }
+        ]
+    },
+    "cosmicBreakInit": {
+        "type": "cosmicBreakInit",
+        "gridSize": 8,
+        "corners": [
+            {
+                "id": "topLeft",
+                "hitsRequired": 3,
+                "hitsReceived": 0,
+                "unlocked": false
+            },
+            {
+                "id": "topRight",
+                "hitsRequired": 3,
+                "hitsReceived": 0,
+                "unlocked": false
+            },
+            {
+                "id": "bottomLeft",
+                "hitsRequired": 3,
+                "hitsReceived": 0,
+                "unlocked": false
+            },
+            {
+                "id": "bottomRight",
+                "hitsRequired": 3,
+                "hitsReceived": 0,
+                "unlocked": false
+            }
+        ]
+    },
+    "updateFreeSpin": {
+        "type": "updateFreeSpin",
+        "amount": 1,
+        "total": 10
+    },
+    "updateGrid": {
+        "type": "updateGrid",
+        "gridMultipliers": [
+            [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ]
+        ]
+    },
+    "cosmicBreakCornerUpdate": {
+        "type": "cosmicBreakCornerUpdate",
+        "corners": [
+            {
+                "id": "topLeft",
+                "hitsRequired": 3,
+                "hitsReceived": 1,
+                "unlocked": false
+            },
+            {
+                "id": "topRight",
+                "hitsRequired": 3,
+                "hitsReceived": 0,
+                "unlocked": false
+            },
+            {
+                "id": "bottomLeft",
+                "hitsRequired": 3,
+                "hitsReceived": 0,
+                "unlocked": false
+            },
+            {
+                "id": "bottomRight",
+                "hitsRequired": 3,
+                "hitsReceived": 0,
+                "unlocked": false
+            }
+        ],
+        "newlyUnlocked": [],
+        "currentMultiplier": 1,
+        "extraSpinsAdded": 0
+    },
+    "meteorLand": {
+        "type": "meteorLand",
+        "meteors": [
+            {
+                "reel": 4,
+                "row": 2,
+                "multiplier": 3
+            }
+        ],
+        "newGlobalMultiplier": 4
+    },
+    "freeSpinEnd": {
+        "type": "freeSpinEnd",
+        "amount": 1850,
+        "winLevel": 4
+    },
+    "cosmicBreakFullUnlock": {
+        "type": "cosmicBreakFullUnlock",
+        "extraSpins": 5
+    },
+    "wincap": {
+        "type": "wincap",
+        "amount": 500000
+    },
+    "freeSpinRetrigger": {
+        "type": "freeSpinRetrigger",
+        "totalFs": 15,
+        "positions": [
+            {
+                "reel": 0,
+                "row": 5
+            },
+            {
+                "reel": 1,
+                "row": 5
+            },
+            {
+                "reel": 2,
+                "row": 5
+            },
+            {
+                "reel": 3,
+                "row": 5
+            },
+            {
+                "reel": 4,
+                "row": 5
+            }
+        ]
+    }
+}

@@ -1,0 +1,441 @@
+{
+    "reveal": {
+        "type": "reveal",
+        "board": [
+            [
+                {
+                    "name": "VEN"
+                },
+                {
+                    "name": "URA"
+                },
+                {
+                    "name": "MER"
+                },
+                {
+                    "name": "PLU"
+                },
+                {
+                    "name": "SUN",
+                    "scatter": true
+                },
+                {
+                    "name": "URA"
+                },
+                {
+                    "name": "EAR"
+                }
+            ],
+            [
+                {
+                    "name": "PLU"
+                },
+                {
+                    "name": "MAR"
+                },
+                {
+                    "name": "JUP"
+                },
+                {
+                    "name": "SUN",
+                    "scatter": true
+                },
+                {
+                    "name": "SAT"
+                },
+                {
+                    "name": "VEN"
+                },
+                {
+                    "name": "NEP"
+                }
+            ],
+            [
+                {
+                    "name": "EAR"
+                },
+                {
+                    "name": "EAR"
+                },
+                {
+                    "name": "NEP"
+                },
+                {
+                    "name": "SAT"
+                },
+                {
+                    "name": "SUN",
+                    "scatter": true
+                },
+                {
+                    "name": "MER"
+                },
+                {
+                    "name": "MER"
+                }
+            ],
+            [
+                {
+                    "name": "MAR"
+                },
+                {
+                    "name": "EAR"
+                },
+                {
+                    "name": "NEP"
+                },
+                {
+                    "name": "SUN",
+                    "scatter": true
+                },
+                {
+                    "name": "NEP"
+                },
+                {
+                    "name": "PLU"
+                },
+                {
+                    "name": "NEP"
+                }
+            ],
+            [
+                {
+                    "name": "MER"
+                },
+                {
+                    "name": "SAT"
+                },
+                {
+                    "name": "EAR"
+                },
+                {
+                    "name": "VEN"
+                },
+                {
+                    "name": "MER"
+                },
+                {
+                    "name": "MAR"
+                },
+                {
+                    "name": "URA"
+                }
+            ]
+        ],
+        "paddingPositions": [
+            82,
+            108,
+            106,
+            117,
+            111
+        ],
+        "gameType": "basegame",
+        "anticipation": [
+            0,
+            0,
+            0,
+            1,
+            2
+        ]
+    },
+    "setTotalWin": {
+        "type": "setTotalWin",
+        "amount": 0
+    },
+    "freeSpinTrigger": {
+        "type": "freeSpinTrigger",
+        "bonusType": "cosmicBreak",
+        "totalFs": 10,
+        "positions": [
+            {
+                "reel": 0,
+                "row": 4
+            },
+            {
+                "reel": 1,
+                "row": 3
+            },
+            {
+                "reel": 2,
+                "row": 4
+            },
+            {
+                "reel": 3,
+                "row": 3
+            }
+        ]
+    },
+    "cosmicBreakInit": {
+        "type": "cosmicBreakInit",
+        "gridSize": 8,
+        "corners": [
+            {
+                "id": "topLeft",
+                "hitsRequired": 3,
+                "hitsReceived": 0,
+                "unlocked": false
+            },
+            {
+                "id": "topRight",
+                "hitsRequired": 3,
+                "hitsReceived": 0,
+                "unlocked": false
+            },
+            {
+                "id": "bottomLeft",
+                "hitsRequired": 3,
+                "hitsReceived": 0,
+                "unlocked": false
+            },
+            {
+                "id": "bottomRight",
+                "hitsRequired": 3,
+                "hitsReceived": 0,
+                "unlocked": false
+            }
+        ]
+    },
+    "updateFreeSpin": {
+        "type": "updateFreeSpin",
+        "amount": 1,
+        "total": 10
+    },
+    "updateGrid": {
+        "type": "updateGrid",
+        "gridMultipliers": [
+            [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ]
+        ]
+    },
+    "winInfo": {
+        "type": "winInfo",
+        "totalWin": 10,
+        "wins": [
+            {
+                "symbol": "PLU",
+                "clusterSize": 4,
+                "win": 10,
+                "positions": [
+                    {
+                        "reel": 0,
+                        "row": 4
+                    },
+                    {
+                        "reel": 1,
+                        "row": 4
+                    },
+                    {
+                        "reel": 1,
+                        "row": 5
+                    },
+                    {
+                        "reel": 2,
+                        "row": 5
+                    }
+                ],
+                "meta": {
+                    "globalMult": 1,
+                    "clusterMult": 1,
+                    "winWithoutMult": 10,
+                    "overlay": {
+                        "reel": 1,
+                        "row": 5
+                    }
+                }
+            }
+        ]
+    },
+    "updateTumbleWin": {
+        "type": "updateTumbleWin",
+        "amount": 10
+    },
+    "cosmicBreakCornerUpdate": {
+        "type": "cosmicBreakCornerUpdate",
+        "corners": [
+            {
+                "id": "topLeft",
+                "hitsRequired": 3,
+                "hitsReceived": 1,
+                "unlocked": false
+            },
+            {
+                "id": "topRight",
+                "hitsRequired": 3,
+                "hitsReceived": 0,
+                "unlocked": false
+            },
+            {
+                "id": "bottomLeft",
+                "hitsRequired": 3,
+                "hitsReceived": 0,
+                "unlocked": false
+            },
+            {
+                "id": "bottomRight",
+                "hitsRequired": 3,
+                "hitsReceived": 0,
+                "unlocked": false
+            }
+        ],
+        "newlyUnlocked": [],
+        "currentMultiplier": 1,
+        "extraSpinsAdded": 0
+    },
+    "tumbleBoard": {
+        "type": "tumbleBoard",
+        "newSymbols": [
+            [
+                {
+                    "name": "PLU"
+                }
+            ],
+            [
+                {
+                    "name": "MAR"
+                },
+                {
+                    "name": "JUP"
+                }
+            ],
+            [
+                {
+                    "name": "PLU"
+                }
+            ],
+            [],
+            [],
+            [],
+            [],
+            []
+        ],
+        "explodingSymbols": [
+            {
+                "reel": 0,
+                "row": 4
+            },
+            {
+                "reel": 1,
+                "row": 4
+            },
+            {
+                "reel": 1,
+                "row": 5
+            },
+            {
+                "reel": 2,
+                "row": 5
+            }
+        ]
+    },
+    "setWin": {
+        "type": "setWin",
+        "amount": 10,
+        "winLevel": 2
+    },
+    "meteorLand": {
+        "type": "meteorLand",
+        "meteors": [
+            {
+                "reel": 4,
+                "row": 2,
+                "multiplier": 7
+            }
+        ],
+        "newGlobalMultiplier": 10
+    },
+    "freeSpinEnd": {
+        "type": "freeSpinEnd",
+        "amount": 8780,
+        "winLevel": 6
+    },
+    "finalWin": {
+        "type": "finalWin",
+        "amount": 8780
+    },
+    "cosmicBreakFullUnlock": {
+        "type": "cosmicBreakFullUnlock",
+        "extraSpins": 5
+    },
+    "wincap": {
+        "type": "wincap",
+        "amount": 500000
+    }
+}

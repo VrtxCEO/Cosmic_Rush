@@ -1,0 +1,42 @@
+{
+    "base": {
+        "num_events": 171201,
+        "weight_range": 1125899906836711.0,
+        "min_win": 0.0,
+        "max_win": 500000.0,
+        "min_diff": 10,
+        "average_win": 0.97,
+        "rtp": 0.97,
+        "std": 10.711,
+        "var": 114.727,
+        "m2m": 0,
+        "hr_max": 500000.001,
+        "non_zero_hr": 3.44,
+        "prob_nil": 0.709,
+        "num_non_zero_payouts": 6005,
+        "prob_less_bet": 0.938,
+        "skew": 211.296,
+        "excess_kurtosis": 95123.673,
+        "name": "base"
+    },
+    "bonus": {
+        "num_events": 1183282,
+        "weight_range": 1125899906837537.0,
+        "min_win": 10.0,
+        "max_win": 500000.0,
+        "min_diff": 10,
+        "average_win": 485.0,
+        "rtp": 0.97,
+        "std": 555.326,
+        "var": 308387.133,
+        "m2m": 3.571,
+        "hr_max": 1000.0,
+        "non_zero_hr": 1,
+        "prob_nil": 0,
+        "num_non_zero_payouts": 10000,
+        "prob_less_bet": 0.613,
+        "skew": 165553488.264,
+        "excess_kurtosis": 427963954149.853,
+        "name": "bonus"
+    }
+}

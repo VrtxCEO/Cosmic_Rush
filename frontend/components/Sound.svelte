@@ -29,14 +29,15 @@
 	const context = getContext();
 
 	// ── Individual SFX files ──────────────────────────────────────────────────
-	const hitSound = new Howl({ src: ['/assets/audio/Hit_Sound.mp3'], volume: 1 });
-	const bonusStinger = new Howl({ src: ['/assets/audio/bonus_stinger.mp3'], volume: 1 });
-	const extraSpinsSound = new Howl({ src: ['/assets/audio/sfx_extra_spins.mp3'], volume: 1 });
-	const winPopSound = new Howl({ src: ['/assets/audio/sfx_win_pop.mp3'], volume: 1 });
-	const coinLoopSound = new Howl({ src: ['/assets/audio/sfx_coinloop.mp3'], volume: 1 });
-	const scatterStopSound = new Howl({ src: ['/assets/audio/sfx_scatter_stop.mp3'], volume: 1 });
+	const base = import.meta.env.BASE_URL;
+	const hitSound = new Howl({ src: [`${base}assets/audio/Hit_Sound.mp3`], volume: 1 });
+	const bonusStinger = new Howl({ src: [`${base}assets/audio/bonus_stinger.mp3`], volume: 1 });
+	const extraSpinsSound = new Howl({ src: [`${base}assets/audio/sfx_extra_spins.mp3`], volume: 1 });
+	const winPopSound = new Howl({ src: [`${base}assets/audio/sfx_win_pop.mp3`], volume: 1 });
+	const coinLoopSound = new Howl({ src: [`${base}assets/audio/sfx_coinloop.mp3`], volume: 1 });
+	const scatterStopSound = new Howl({ src: [`${base}assets/audio/sfx_scatter_stop.mp3`], volume: 1 });
 	const reelStopSound = new Howl({
-		src: ['/assets/audio/sounds.mp3'],
+		src: [`${base}assets/audio/sounds.mp3`],
 		sprite: {
 			sfx_reel_stop_1: [325000, 244],
 			sfx_reel_stop_2: [327000, 247],

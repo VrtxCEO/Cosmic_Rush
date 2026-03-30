@@ -6,9 +6,11 @@
 import { Howl } from 'howler';
 import type { MusicName } from './sound';
 
+const base = import.meta.env.BASE_URL;
+
 const BGM_FILES: Partial<Record<MusicName, string>> = {
-	'bgm_main':             '/assets/audio/bgm_main.mp3',
-	'bgm_freespin':         '/assets/audio/bgm_freespin.mp3',
+	'bgm_main':             `${base}assets/audio/bgm_main.mp3`,
+	'bgm_freespin':         `${base}assets/audio/bgm_freespin.mp3`,
 	// 'bgm_winlevel_big':  '/assets/audio/bgm_winlevel_big.mp3',
 	// 'bgm_winlevel_epic': '/assets/audio/bgm_winlevel_epic.mp3',
 	// 'bgm_winlevel_max':  '/assets/audio/bgm_winlevel_max.mp3',

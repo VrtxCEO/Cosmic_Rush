@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { base } from '$app/paths';
 	import { stateApp } from '../game/stateApp';
 
 	type Props = {
@@ -18,7 +19,7 @@
 </script>
 
 <div class="loading-overlay">
-	<img src="/assets/sprites/Cosmic_Rush_Loading_Screen.png" alt="Cosmic Rush" class="bg" />
+	<img src="{base}/assets/sprites/Cosmic_Rush_Loading_Screen.png" alt="Cosmic Rush" class="bg" />
 
 	{#if !assetsLoaded}
 		<div class="loading-bar-container">

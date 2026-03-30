@@ -37,7 +37,6 @@
 	import Transition from './Transition.svelte';
 	import CosmicBreakCorners from './CosmicBreakCorners.svelte';
 	import BonusExtraSpins from './BonusExtraSpins.svelte';
-	import DevPanel from './DevPanel.svelte';
 	import PayTable from './PayTable.svelte';
 	import GameRules from './GameRules.svelte';
 	import MeteorMultiplierOverlay from './MeteorMultiplierOverlay.svelte';
@@ -154,4 +153,3 @@
 	{/snippet}
 </Modals>
 
-<DevPanel />

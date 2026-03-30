@@ -46,6 +46,15 @@
 			<li>All wins are multiplied by your total bet.</li>
 		</ul>
 	</section>
+
+	<section>
+		<h3>Re-Trigger</h3>
+		<p>Landing 4 or more SUN scatters during Cosmic Break free spins awards <strong>+5 additional spins</strong>.</p>
+	</section>
+
+	<section class="disclaimer">
+		<p>Malfunction voids all pays and plays. A consistent internet connection is required. In the event of a disconnection, reload the game to finish any uncompleted bets. The expected return is calculated over many spins. Animations are not representative of any physical device, and are for illustrative purposes only. TM and © 2025 Stake Engine.</p>
+	</section>
 </div>
 
 <style>
@@ -84,5 +93,10 @@
 	}
 	strong {
 		color: #fff;
+	}
+	.disclaimer p {
+		color: #666;
+		font-size: 0.75rem;
+		font-style: italic;
 	}
 </style>

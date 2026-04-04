@@ -1,0 +1,889 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="bg-gradient-to-br from-gray-100 to-gray-200">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>stake.bet Favicon - Download Website Icon in All Sizes</title>
+    <meta name="description" content="Download favicon for stake.bet in multiple sizes. Get high-quality website icons for your projects, apps, and presentations.">
+    <meta name="keywords" content="download favicon, stake.bet favicon, website icon, favicon sizes, favicon download, get favicon">
+    
+    <link rel="canonical" href="https://favicon.im/domain/stake.bet">
+    <link rel="alternate" hreflang="en" href="https://favicon.im/domain/stake.bet">
+    <link rel="alternate" hreflang="zh" href="https://favicon.im/zh/domain/stake.bet">
+    <link rel="alternate" hreflang="zh-TW" href="https://favicon.im/zh-TW/domain/stake.bet">
+    <link rel="alternate" hreflang="ja" href="https://favicon.im/ja/domain/stake.bet">
+    <link rel="alternate" hreflang="ko" href="https://favicon.im/ko/domain/stake.bet">
+    <link rel="alternate" hreflang="es" href="https://favicon.im/es/domain/stake.bet">
+    <link rel="alternate" hreflang="fr" href="https://favicon.im/fr/domain/stake.bet">
+    <link rel="alternate" hreflang="de" href="https://favicon.im/de/domain/stake.bet">
+    <link rel="alternate" hreflang="pt" href="https://favicon.im/pt/domain/stake.bet">
+    <link rel="alternate" hreflang="ru" href="https://favicon.im/ru/domain/stake.bet">
+    <link rel="alternate" hreflang="ar" href="https://favicon.im/ar/domain/stake.bet">
+    <link rel="alternate" hreflang="hi" href="https://favicon.im/hi/domain/stake.bet">
+    <link rel="alternate" hreflang="it" href="https://favicon.im/it/domain/stake.bet">
+    <link rel="alternate" hreflang="nl" href="https://favicon.im/nl/domain/stake.bet">
+    <link rel="alternate" hreflang="sv" href="https://favicon.im/sv/domain/stake.bet">
+    <link rel="alternate" hreflang="da" href="https://favicon.im/da/domain/stake.bet">
+    <link rel="alternate" hreflang="no" href="https://favicon.im/no/domain/stake.bet">
+    <link rel="alternate" hreflang="pl" href="https://favicon.im/pl/domain/stake.bet">
+    <link rel="alternate" hreflang="tr" href="https://favicon.im/tr/domain/stake.bet">
+    
+    <script defer data-domain="favicon.im" src="https://click.pageview.click/js/script.js"></script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8443907573529681" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="stake.bet Favicon - Download Website Icon in All Sizes">
+    <meta property="og:description" content="Download favicon for stake.bet in multiple sizes. Get high-quality website icons for your projects, apps, and presentations.">
+    <meta property="og:url" content="https://favicon.im/domain/stake.bet">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://favicon.im/stake.bet?larger=true">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="stake.bet Favicon - Download Website Icon in All Sizes">
+    <meta name="twitter:description" content="Download favicon for stake.bet in multiple sizes. Get high-quality website icons for your projects, apps, and presentations.">
+    <meta name="twitter:image" content="https://favicon.im/stake.bet?larger=true">
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "stake.bet Favicon - Download Website Icon in All Sizes",
+      "description": "Download favicon for stake.bet in multiple sizes. Get high-quality website icons for your projects, apps, and presentations.",
+      "url": "https://favicon.im/domain/stake.bet",
+      "mainEntity": {
+        "@type": "SoftwareApplication",
+        "name": "Favicon.im",
+        "applicationCategory": "WebApplication",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        }
+      }
+    }
+    </script>
+    
+    <script>
+    // Function to download favicon via proxy to avoid CORS issues
+    function downloadFaviconProxy(url, domain, size) {
+      // Create a temporary anchor element
+      const a = document.createElement('a');
+      a.href = url;
+      
+      // Set the download attribute with a filename based on domain and size
+      const fileExtension = url.split('.').pop().split('?')[0] || 'ico';
+      a.download = `${domain}-favicon-${size}.${fileExtension}`;
+      
+      // Trigger the download
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+    }
+    
+    // Function to copy favicon URL to clipboard
+    function copyFaviconUrl(url) {
+      navigator.clipboard.writeText(url).then(() => {
+        // Show a temporary success message
+        const toast = document.createElement('div');
+        toast.className = 'fixed bottom-4 right-4 bg-green-500 text-white px-4 py-2 rounded-lg shadow-lg';
+        toast.textContent = `${t('domainPage.urlCopied') || 'URL copied to clipboard!'}`;
+        document.body.appendChild(toast);
+        
+        // Remove the toast after 2 seconds
+        setTimeout(() => {
+          toast.style.opacity = '0';
+          toast.style.transition = 'opacity 0.5s';
+          setTimeout(() => document.body.removeChild(toast), 500);
+        }, 2000);
+      }).catch(err => {
+        console.error('Failed to copy URL: ', err);
+        alert('Failed to copy URL to clipboard');
+      });
+    }
+
+    // Function to copy color value to clipboard
+    function copyColor(value) {
+      navigator.clipboard.writeText(value).then(() => {
+        const toast = document.createElement('div');
+        toast.className = 'fixed bottom-4 right-4 bg-gray-900 text-white px-4 py-2 rounded-lg shadow-lg text-sm';
+        toast.textContent = `${value} copied`;
+        document.body.appendChild(toast);
+        setTimeout(() => {
+          toast.style.opacity = '0';
+          toast.style.transition = 'opacity 0.5s';
+          setTimeout(() => document.body.removeChild(toast), 500);
+        }, 1600);
+      }).catch(err => {
+        console.error('Failed to copy color: ', err);
+        alert('Failed to copy color');
+      });
+    }
+    </script>
+</head>
+<body class="font-['Fira_Code'] text-gray-800 leading-relaxed min-h-screen bg-gradient-to-br from-gray-100 to-gray-200">
+    <div class="min-h-screen flex flex-col">
+        <header class="bg-gradient-to-r from-gray-800 to-gray-700 text-white p-6 shadow-lg">
+            <div class="max-w-6xl mx-auto flex justify-between items-center">
+                <div class="flex-1">
+                    <div class="text-2xl md:text-3xl font-bold mb-2">
+                        <a href="/" class="hover:text-yellow-400 transition-colors">
+                            Favicon.im
+                        </a>
+                    </div>
+                    <div class="flex items-center gap-3">
+                        <img src="https://favicon.im/stake.bet" alt="stake.bet favicon" class="w-6 h-6 rounded border border-gray-600">
+                        <h2 class="text-lg text-gray-200">stake.bet</h2>
+                    </div>
+                </div>
+                <div class="ml-4 flex-shrink-0">
+                    
+    <div class="relative inline-block text-left">
+      <button type="button"
+              class="inline-flex items-center justify-center w-full rounded-md border border-gray-300 shadow-sm px-2 sm:px-4 py-2 bg-white text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500"
+              id="language-menu-button"
+              aria-expanded="false"
+              aria-haspopup="true"
+              onclick="toggleLanguageMenu()">
+        <svg class="w-4 h-4 mr-1 sm:mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5h12M9 3v2m1.048 9.5A18.022 18.022 0 016.412 9m6.088 9h7M11 21l5-10 5 10M12.751 5C11.783 10.77 8.07 15.61 3 18.129"></path>
+        </svg>
+        <span class="hidden sm:inline">English</span>
+        <span class="sm:hidden">EN</span>
+        <svg class="-mr-1 ml-1 sm:ml-2 h-4 sm:h-5 w-4 sm:w-5" fill="currentColor" viewBox="0 0 20 20">
+          <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+        </svg>
+      </button>
+
+      <div class="hidden origin-top-right absolute right-0 sm:right-0 mt-2 w-48 sm:w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none z-50 max-w-[calc(100vw-2rem)]"
+           id="language-menu"
+           role="menu"
+           aria-orientation="vertical"
+           aria-labelledby="language-menu-button"
+           tabindex="-1">
+        <div class="py-1 max-h-64 overflow-y-auto" role="none">
+          
+      <a href="/domain/stake.bet" 
+         class="block px-3 py-2 text-sm rounded-md transition-colors duration-200 bg-blue-100 text-blue-800 font-medium"
+         aria-current="page">
+        <span class="font-medium">English</span>
+        <span class="text-xs text-gray-500 ml-1">(EN)</span>
+      </a>
+    
+      <a href="/zh/domain/stake.bet" 
+         class="block px-3 py-2 text-sm rounded-md transition-colors duration-200 text-gray-700 hover:bg-gray-100 hover:text-gray-900"
+         >
+        <span class="font-medium">简体中文</span>
+        <span class="text-xs text-gray-500 ml-1">(ZH)</span>
+      </a>
+    
+      <a href="/zh-TW/domain/stake.bet" 
+         class="block px-3 py-2 text-sm rounded-md transition-colors duration-200 text-gray-700 hover:bg-gray-100 hover:text-gray-900"
+         >
+        <span class="font-medium">繁體中文</span>
+        <span class="text-xs text-gray-500 ml-1">(ZH-TW)</span>
+      </a>
+    
+      <a href="/ja/domain/stake.bet" 
+         class="block px-3 py-2 text-sm rounded-md transition-colors duration-200 text-gray-700 hover:bg-gray-100 hover:text-gray-900"
+         >
+        <span class="font-medium">日本語</span>
+        <span class="text-xs text-gray-500 ml-1">(JA)</span>
+      </a>
+    
+      <a href="/ko/domain/stake.bet" 
+         class="block px-3 py-2 text-sm rounded-md transition-colors duration-200 text-gray-700 hover:bg-gray-100 hover:text-gray-900"
+         >
+        <span class="font-medium">한국어</span>
+        <span class="text-xs text-gray-500 ml-1">(KO)</span>
+      </a>
+    
+      <a href="/es/domain/stake.bet" 
+         class="block px-3 py-2 text-sm rounded-md transition-colors duration-200 text-gray-700 hover:bg-gray-100 hover:text-gray-900"
+         >
+        <span class="font-medium">Español</span>
+        <span class="text-xs text-gray-500 ml-1">(ES)</span>
+      </a>
+    
+      <a href="/fr/domain/stake.bet" 
+         class="block px-3 py-2 text-sm rounded-md transition-colors duration-200 text-gray-700 hover:bg-gray-100 hover:text-gray-900"
+         >
+        <span class="font-medium">Français</span>
+        <span class="text-xs text-gray-500 ml-1">(FR)</span>
+      </a>
+    
+      <a href="/de/domain/stake.bet" 
+         class="block px-3 py-2 text-sm rounded-md transition-colors duration-200 text-gray-700 hover:bg-gray-100 hover:text-gray-900"
+         >
+        <span class="font-medium">Deutsch</span>
+        <span class="text-xs text-gray-500 ml-1">(DE)</span>
+      </a>
+    
+      <a href="/pt/domain/stake.bet" 
+         class="block px-3 py-2 text-sm rounded-md transition-colors duration-200 text-gray-700 hover:bg-gray-100 hover:text-gray-900"
+         >
+        <span class="font-medium">Português</span>
+        <span class="text-xs text-gray-500 ml-1">(PT)</span>
+      </a>
+    
+      <a href="/ru/domain/stake.bet" 
+         class="block px-3 py-2 text-sm rounded-md transition-colors duration-200 text-gray-700 hover:bg-gray-100 hover:text-gray-900"
+         >
+        <span class="font-medium">Русский</span>
+        <span class="text-xs text-gray-500 ml-1">(RU)</span>
+      </a>
+    
+      <a href="/ar/domain/stake.bet" 
+         class="block px-3 py-2 text-sm rounded-md transition-colors duration-200 text-gray-700 hover:bg-gray-100 hover:text-gray-900"
+         >
+        <span class="font-medium">العربية</span>
+        <span class="text-xs text-gray-500 ml-1">(AR)</span>
+      </a>
+    
+      <a href="/hi/domain/stake.bet" 
+         class="block px-3 py-2 text-sm rounded-md transition-colors duration-200 text-gray-700 hover:bg-gray-100 hover:text-gray-900"
+         >
+        <span class="font-medium">हिन्दी</span>
+        <span class="text-xs text-gray-500 ml-1">(HI)</span>
+      </a>
+    
+      <a href="/it/domain/stake.bet" 
+         class="block px-3 py-2 text-sm rounded-md transition-colors duration-200 text-gray-700 hover:bg-gray-100 hover:text-gray-900"
+         >
+        <span class="font-medium">Italiano</span>
+        <span class="text-xs text-gray-500 ml-1">(IT)</span>
+      </a>
+    
+      <a href="/nl/domain/stake.bet" 
+         class="block px-3 py-2 text-sm rounded-md transition-colors duration-200 text-gray-700 hover:bg-gray-100 hover:text-gray-900"
+         >
+        <span class="font-medium">Nederlands</span>
+        <span class="text-xs text-gray-500 ml-1">(NL)</span>
+      </a>
+    
+      <a href="/sv/domain/stake.bet" 
+         class="block px-3 py-2 text-sm rounded-md transition-colors duration-200 text-gray-700 hover:bg-gray-100 hover:text-gray-900"
+         >
+        <span class="font-medium">Svenska</span>
+        <span class="text-xs text-gray-500 ml-1">(SV)</span>
+      </a>
+    
+      <a href="/da/domain/stake.bet" 
+         class="block px-3 py-2 text-sm rounded-md transition-colors duration-200 text-gray-700 hover:bg-gray-100 hover:text-gray-900"
+         >
+        <span class="font-medium">Dansk</span>
+        <span class="text-xs text-gray-500 ml-1">(DA)</span>
+      </a>
+    
+      <a href="/no/domain/stake.bet" 
+         class="block px-3 py-2 text-sm rounded-md transition-colors duration-200 text-gray-700 hover:bg-gray-100 hover:text-gray-900"
+         >
+        <span class="font-medium">Norsk</span>
+        <span class="text-xs text-gray-500 ml-1">(NO)</span>
+      </a>
+    
+      <a href="/pl/domain/stake.bet" 
+         class="block px-3 py-2 text-sm rounded-md transition-colors duration-200 text-gray-700 hover:bg-gray-100 hover:text-gray-900"
+         >
+        <span class="font-medium">Polski</span>
+        <span class="text-xs text-gray-500 ml-1">(PL)</span>
+      </a>
+    
+      <a href="/tr/domain/stake.bet" 
+         class="block px-3 py-2 text-sm rounded-md transition-colors duration-200 text-gray-700 hover:bg-gray-100 hover:text-gray-900"
+         >
+        <span class="font-medium">Türkçe</span>
+        <span class="text-xs text-gray-500 ml-1">(TR)</span>
+      </a>
+    
+        </div>
+      </div>
+    </div>
+
+    <script>
+      function toggleLanguageMenu() {
+        const menu = document.getElementById('language-menu');
+        const button = document.getElementById('language-menu-button');
+        const isHidden = menu.classList.contains('hidden');
+
+        if (isHidden) {
+          menu.classList.remove('hidden');
+          button.setAttribute('aria-expanded', 'true');
+
+          // Adjust position on mobile to prevent overflow
+          const menuRect = menu.getBoundingClientRect();
+          const viewportWidth = window.innerWidth;
+
+          if (menuRect.right > viewportWidth) {
+            menu.style.right = '0';
+            menu.style.left = 'auto';
+          }
+          if (menuRect.left < 0) {
+            menu.style.left = '0';
+            menu.style.right = 'auto';
+          }
+        } else {
+          menu.classList.add('hidden');
+          button.setAttribute('aria-expanded', 'false');
+        }
+      }
+
+      // Close menu when clicking outside
+      document.addEventListener('click', function(event) {
+        const menu = document.getElementById('language-menu');
+        const button = document.getElementById('language-menu-button');
+        
+        if (!button.contains(event.target) && !menu.contains(event.target)) {
+          menu.classList.add('hidden');
+          button.setAttribute('aria-expanded', 'false');
+        }
+      });
+
+      // Close menu on escape key
+      document.addEventListener('keydown', function(event) {
+        if (event.key === 'Escape') {
+          const menu = document.getElementById('language-menu');
+          const button = document.getElementById('language-menu-button');
+          menu.classList.add('hidden');
+          button.setAttribute('aria-expanded', 'false');
+          button.focus();
+        }
+      });
+    </script>
+  
+                </div>
+            </div>
+        </header>
+
+        <main class="flex-1 p-6">
+            <div class="max-w-4xl mx-auto">
+                <section class="mb-6">
+                    <!-- favicon-domain-detail -->
+                    <ins class="adsbygoogle"
+                         style="display:block"
+                         data-ad-client="ca-pub-8443907573529681"
+                         data-ad-slot="6159219129"
+                         data-ad-format="auto"
+                         data-full-width-responsive="true"></ins>
+                    <script>
+                         (adsbygoogle = window.adsbygoogle || []).push({});
+                    </script>
+                </section>
+                <!-- Breadcrumb -->
+                <nav class="mb-6 text-sm text-gray-600">
+                    <a href="/" class="hover:text-blue-600">Home</a>
+                    <span class="mx-2">→</span>
+                    <span class="text-gray-800">stake.bet Favicons</span>
+                </nav>
+
+                <!-- Page Header -->
+                <div class="bg-white rounded-xl shadow-sm border border-gray-200 p-8 mb-8">
+                    <div class="text-center">
+                        <img src="https://favicon.im/stake.bet?larger=true" 
+                             alt="stake.bet favicon" 
+                             class="w-16 h-16 mx-auto mb-4 rounded-lg border border-gray-300"
+                             onerror="this.src='data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20100%20100%22%3E%3Ccircle%20cx%3D%2250%22%20cy%3D%2250%22%20r%3D%2240%22%20fill%3D%22%23e5e7eb%22%2F%3E%3Ctext%20x%3D%2250%22%20y%3D%2265%22%20font-family%3D%22sans-serif%22%20font-size%3D%2230%22%20fill%3D%22%239ca3af%22%20text-anchor%3D%22middle%22%3E%3F%3C%2Ftext%3E%3C%2Fsvg%3E'">
+                        <h1 class="text-3xl font-bold text-gray-800 mb-3">
+                            stake.bet Favicon Download
+                        </h1>
+                        <p class="text-lg text-gray-600 max-w-3xl mx-auto">
+                            Download the favicon for stake.bet in multiple sizes. Perfect for web development, app design, and presentations.
+                        </p>
+                    </div>
+                </div>
+
+                <section class="bg-white rounded-xl shadow-sm border border-gray-200 p-6 mb-8">
+                    <h2 class="text-sm uppercase tracking-wide text-gray-500 mb-2">Brand Palette</h2>
+                    <p class="text-sm text-gray-600 mb-4">Extracted from the largest available favicon for stake.bet.</p>
+                    
+                        <div class="flex flex-wrap gap-2 mb-3">
+                          
+                            <button type="button" onclick="copyColor('#071824')" class="inline-flex" title="Click to copy #071824">
+                              <span class="inline-block w-8 h-8 border border-gray-200 rounded-sm" style="background:#071824"></span>
+                            </button>
+                          
+                            <button type="button" onclick="copyColor('#ffffff')" class="inline-flex" title="Click to copy #ffffff">
+                              <span class="inline-block w-8 h-8 border border-gray-200 rounded-sm" style="background:#ffffff"></span>
+                            </button>
+                          
+                            <button type="button" onclick="copyColor('#d1d4d7')" class="inline-flex" title="Click to copy #d1d4d7">
+                              <span class="inline-block w-8 h-8 border border-gray-200 rounded-sm" style="background:#d1d4d7"></span>
+                            </button>
+                          
+                            <button type="button" onclick="copyColor('#1e2e38')" class="inline-flex" title="Click to copy #1e2e38">
+                              <span class="inline-block w-8 h-8 border border-gray-200 rounded-sm" style="background:#1e2e38"></span>
+                            </button>
+                          
+                            <button type="button" onclick="copyColor('#edeeef')" class="inline-flex" title="Click to copy #edeeef">
+                              <span class="inline-block w-8 h-8 border border-gray-200 rounded-sm" style="background:#edeeef"></span>
+                            </button>
+                          
+                            <button type="button" onclick="copyColor('#747d84')" class="inline-flex" title="Click to copy #747d84">
+                              <span class="inline-block w-8 h-8 border border-gray-200 rounded-sm" style="background:#747d84"></span>
+                            </button>
+                          
+                            <button type="button" onclick="copyColor('#90989d')" class="inline-flex" title="Click to copy #90989d">
+                              <span class="inline-block w-8 h-8 border border-gray-200 rounded-sm" style="background:#90989d"></span>
+                            </button>
+                          
+                        </div>
+                        <div class="flex flex-wrap gap-4">
+                          
+                            <button type="button" onclick="copyColor('#071824')" class="flex items-center gap-2 group" title="Click to copy #071824">
+                              <span class="inline-block w-5 h-5 border border-gray-200 rounded-sm" style="background:#071824"></span>
+                              <span class="text-xs font-mono text-gray-600 group-hover:text-gray-900">#071824</span>
+                            </button>
+                          
+                            <button type="button" onclick="copyColor('#ffffff')" class="flex items-center gap-2 group" title="Click to copy #ffffff">
+                              <span class="inline-block w-5 h-5 border border-gray-200 rounded-sm" style="background:#ffffff"></span>
+                              <span class="text-xs font-mono text-gray-600 group-hover:text-gray-900">#ffffff</span>
+                            </button>
+                          
+                            <button type="button" onclick="copyColor('#d1d4d7')" class="flex items-center gap-2 group" title="Click to copy #d1d4d7">
+                              <span class="inline-block w-5 h-5 border border-gray-200 rounded-sm" style="background:#d1d4d7"></span>
+                              <span class="text-xs font-mono text-gray-600 group-hover:text-gray-900">#d1d4d7</span>
+                            </button>
+                          
+                            <button type="button" onclick="copyColor('#1e2e38')" class="flex items-center gap-2 group" title="Click to copy #1e2e38">
+                              <span class="inline-block w-5 h-5 border border-gray-200 rounded-sm" style="background:#1e2e38"></span>
+                              <span class="text-xs font-mono text-gray-600 group-hover:text-gray-900">#1e2e38</span>
+                            </button>
+                          
+                            <button type="button" onclick="copyColor('#edeeef')" class="flex items-center gap-2 group" title="Click to copy #edeeef">
+                              <span class="inline-block w-5 h-5 border border-gray-200 rounded-sm" style="background:#edeeef"></span>
+                              <span class="text-xs font-mono text-gray-600 group-hover:text-gray-900">#edeeef</span>
+                            </button>
+                          
+                            <button type="button" onclick="copyColor('#747d84')" class="flex items-center gap-2 group" title="Click to copy #747d84">
+                              <span class="inline-block w-5 h-5 border border-gray-200 rounded-sm" style="background:#747d84"></span>
+                              <span class="text-xs font-mono text-gray-600 group-hover:text-gray-900">#747d84</span>
+                            </button>
+                          
+                            <button type="button" onclick="copyColor('#90989d')" class="flex items-center gap-2 group" title="Click to copy #90989d">
+                              <span class="inline-block w-5 h-5 border border-gray-200 rounded-sm" style="background:#90989d"></span>
+                              <span class="text-xs font-mono text-gray-600 group-hover:text-gray-900">#90989d</span>
+                            </button>
+                          
+                        </div>
+                      
+                </section>
+
+                <!-- Download Favicon Section -->
+                <div class="mb-8">
+                    <h2 class="text-2xl font-bold text-gray-800 mb-6 text-center">
+                        Download Favicon in Different Sizes
+                    </h2>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6">
+                        
+      <div class="bg-white rounded-lg border border-gray-200 p-6 hover:shadow-md transition-all duration-200 flex flex-col h-full">
+        <div class="text-center flex-grow">
+          <div class="mb-4 flex items-center justify-center" style="height: 128px;">
+            <div class="w-full flex items-center justify-center" style="height: 128px;">
+              <img id="favicon-0" 
+                   src="https://favicon.im/stake.bet" 
+                   alt="stake.bet favicon" 
+                   class="border border-gray-300 rounded object-contain"
+                   style="max-width: 100%; max-height: 100%;"
+                   onerror="this.src='data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 100 100\'%3E%3Ccircle cx=\'50\' cy=\'50\' r=\'40\' fill=\'%23e5e7eb\'/%3E%3Ctext x=\'50\' y=\'65\' font-family=\'sans-serif\' font-size=\'30\' fill=\'%239ca3af\' text-anchor=\'middle\'%3E?%3C/text%3E%3C/svg%3E'">
+            </div>
+          </div>
+          <h3 class="text-lg font-semibold text-gray-800 mb-2">icon</h3>
+          <p class="text-sm text-gray-600 mb-2">32x32 • image/x-icon</p>
+          <div class="mb-4 bg-gray-50 p-2 rounded-md">
+            <p class="text-xs text-gray-500 break-all overflow-hidden">https://favicon.im/stake.bet</p>
+          </div>
+        </div>
+        <div class="mt-auto space-y-2">
+          <button onclick="downloadFaviconProxy('https://favicon.im/stake.bet', 'stake.bet', '32x32')" 
+                  class="w-full inline-flex items-center justify-center gap-2 bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors text-sm font-medium">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path>
+            </svg>
+            Download Favicon
+          </button>
+          <button onclick="copyFaviconUrl('https://favicon.im/stake.bet')"
+                  class="w-full inline-flex items-center justify-center gap-2 bg-gray-100 text-gray-700 px-4 py-2 rounded-lg hover:bg-gray-200 transition-colors text-sm">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"></path>
+            </svg>
+            Copy URL
+          </button>
+        </div>
+      </div>
+    
+      <div class="bg-white rounded-lg border border-gray-200 p-6 hover:shadow-md transition-all duration-200 flex flex-col h-full">
+        <div class="text-center flex-grow">
+          <div class="mb-4 flex items-center justify-center" style="height: 128px;">
+            <div class="w-full flex items-center justify-center" style="height: 128px;">
+              <img id="favicon-1" 
+                   src="https://favicon.im/stake.bet?larger=true" 
+                   alt="stake.bet favicon" 
+                   class="border border-gray-300 rounded object-contain"
+                   style="max-width: 100%; max-height: 100%;"
+                   onerror="this.src='data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 100 100\'%3E%3Ccircle cx=\'50\' cy=\'50\' r=\'40\' fill=\'%23e5e7eb\'/%3E%3Ctext x=\'50\' y=\'65\' font-family=\'sans-serif\' font-size=\'30\' fill=\'%239ca3af\' text-anchor=\'middle\'%3E?%3C/text%3E%3C/svg%3E'">
+            </div>
+          </div>
+          <h3 class="text-lg font-semibold text-gray-800 mb-2">icon</h3>
+          <p class="text-sm text-gray-600 mb-2">128x128 • image/x-icon</p>
+          <div class="mb-4 bg-gray-50 p-2 rounded-md">
+            <p class="text-xs text-gray-500 break-all overflow-hidden">https://favicon.im/stake.bet?larger=true</p>
+          </div>
+        </div>
+        <div class="mt-auto space-y-2">
+          <button onclick="downloadFaviconProxy('https://favicon.im/stake.bet?larger=true', 'stake.bet', '128x128')" 
+                  class="w-full inline-flex items-center justify-center gap-2 bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors text-sm font-medium">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path>
+            </svg>
+            Download Favicon
+          </button>
+          <button onclick="copyFaviconUrl('https://favicon.im/stake.bet?larger=true')"
+                  class="w-full inline-flex items-center justify-center gap-2 bg-gray-100 text-gray-700 px-4 py-2 rounded-lg hover:bg-gray-200 transition-colors text-sm">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"></path>
+            </svg>
+            Copy URL
+          </button>
+        </div>
+      </div>
+    
+                    </div>
+                </div>
+
+                <!-- API Usage Section -->
+                <div class="bg-white rounded-xl shadow-sm border border-gray-200 p-8 mb-8">
+                    <h2 class="text-2xl font-bold text-gray-800 mb-6">Favicon API Usage Examples</h2>
+                    <div class="space-y-4">
+                        <div>
+                            <h3 class="text-lg font-semibold text-gray-700 mb-2">Direct URL</h3>
+                            <div class="bg-gray-800 text-green-400 p-4 rounded-lg font-mono text-sm overflow-x-auto">
+                                <code>https://favicon.im/stake.bet</code>
+                                <button onclick="copyToClipboard('https://favicon.im/stake.bet')" class="ml-2 bg-gray-700 text-gray-300 px-2 py-1 rounded text-xs hover:bg-gray-600">
+                                    Copy
+                                </button>
+                            </div>
+                        </div>
+                        <div>
+                            <h3 class="text-lg font-semibold text-gray-700 mb-2">Larger Size</h3>
+                            <div class="bg-gray-800 text-green-400 p-4 rounded-lg font-mono text-sm overflow-x-auto">
+                                <code>https://favicon.im/stake.bet?larger=true</code>
+                                <button onclick="copyToClipboard('https://favicon.im/stake.bet?larger=true')" class="ml-2 bg-gray-700 text-gray-300 px-2 py-1 rounded text-xs hover:bg-gray-600">
+                                    Copy
+                                </button>
+                            </div>
+                        </div>
+                        <div>
+                            <h3 class="text-lg font-semibold text-gray-700 mb-2">HTML Example</h3>
+                            <div class="bg-gray-800 text-green-400 p-4 rounded-lg font-mono text-sm overflow-x-auto">
+                                <code>&lt;img src="https://favicon.im/stake.bet" alt="stake.bet favicon" /&gt;</code>
+                                <button onclick="copyToClipboard('&lt;img src=&quot;https://favicon.im/stake.bet&quot; alt=&quot;stake.bet favicon&quot; /&gt;')" class="ml-2 bg-gray-700 text-gray-300 px-2 py-1 rounded text-xs hover:bg-gray-600">
+                                    Copy
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Related Domains -->
+                <div class="bg-white rounded-xl shadow-sm border border-gray-200 p-8">
+                    <h2 class="text-2xl font-bold text-gray-800 mb-6">Explore More Domains</h2>
+                    <div class="text-center">
+                        <a href="/" 
+                           class="inline-flex items-center gap-2 bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors font-medium">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                            </svg>
+                            Explore More Favicons
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer class="bg-gradient-to-r from-gray-800 to-gray-700 text-white mt-12 py-8">
+            <div class="max-w-6xl mx-auto px-6">
+                
+    <div class="mt-6 pt-4 border-t border-gray-600">
+      <div class="text-center mb-3">
+        <h3 class="text-sm font-medium text-gray-300 mb-2">Available Languages</h3>
+      </div>
+      <div class="space-y-2 leading-relaxed">
+        <div class="text-center"><a href="/domain/stake.bet" 
+               class="text-xs transition-colors duration-200 text-gray-200 font-medium underline" 
+               hreflang="en"
+               aria-current="page"
+               title="English - English">
+        English
+      </a> · <a href="/es/domain/stake.bet" 
+               class="text-xs transition-colors duration-200 text-gray-400 hover:text-gray-200" 
+               hreflang="es"
+               
+               title="Spanish - Español">
+        Español
+      </a> · <a href="/fr/domain/stake.bet" 
+               class="text-xs transition-colors duration-200 text-gray-400 hover:text-gray-200" 
+               hreflang="fr"
+               
+               title="French - Français">
+        Français
+      </a> · <a href="/de/domain/stake.bet" 
+               class="text-xs transition-colors duration-200 text-gray-400 hover:text-gray-200" 
+               hreflang="de"
+               
+               title="German - Deutsch">
+        Deutsch
+      </a> · <a href="/it/domain/stake.bet" 
+               class="text-xs transition-colors duration-200 text-gray-400 hover:text-gray-200" 
+               hreflang="it"
+               
+               title="Italian - Italiano">
+        Italiano
+      </a> · <a href="/pt/domain/stake.bet" 
+               class="text-xs transition-colors duration-200 text-gray-400 hover:text-gray-200" 
+               hreflang="pt"
+               
+               title="Portuguese - Português">
+        Português
+      </a></div>
+      <div class="text-center"><a href="/sv/domain/stake.bet" 
+               class="text-xs transition-colors duration-200 text-gray-400 hover:text-gray-200" 
+               hreflang="sv"
+               
+               title="Swedish - Svenska">
+        Svenska
+      </a> · <a href="/da/domain/stake.bet" 
+               class="text-xs transition-colors duration-200 text-gray-400 hover:text-gray-200" 
+               hreflang="da"
+               
+               title="Danish - Dansk">
+        Dansk
+      </a> · <a href="/no/domain/stake.bet" 
+               class="text-xs transition-colors duration-200 text-gray-400 hover:text-gray-200" 
+               hreflang="no"
+               
+               title="Norwegian - Norsk">
+        Norsk
+      </a> · <a href="/nl/domain/stake.bet" 
+               class="text-xs transition-colors duration-200 text-gray-400 hover:text-gray-200" 
+               hreflang="nl"
+               
+               title="Dutch - Nederlands">
+        Nederlands
+      </a> · <a href="/pl/domain/stake.bet" 
+               class="text-xs transition-colors duration-200 text-gray-400 hover:text-gray-200" 
+               hreflang="pl"
+               
+               title="Polish - Polski">
+        Polski
+      </a></div>
+      <div class="text-center"><a href="/zh/domain/stake.bet" 
+               class="text-xs transition-colors duration-200 text-gray-400 hover:text-gray-200" 
+               hreflang="zh"
+               
+               title="Chinese (Simplified) - 简体中文">
+        简体中文
+      </a> · <a href="/ja/domain/stake.bet" 
+               class="text-xs transition-colors duration-200 text-gray-400 hover:text-gray-200" 
+               hreflang="ja"
+               
+               title="Japanese - 日本語">
+        日本語
+      </a> · <a href="/ko/domain/stake.bet" 
+               class="text-xs transition-colors duration-200 text-gray-400 hover:text-gray-200" 
+               hreflang="ko"
+               
+               title="Korean - 한국어">
+        한국어
+      </a> · <a href="/hi/domain/stake.bet" 
+               class="text-xs transition-colors duration-200 text-gray-400 hover:text-gray-200" 
+               hreflang="hi"
+               
+               title="Hindi - हिन्दी">
+        हिन्दी
+      </a></div>
+      <div class="text-center"><a href="/ru/domain/stake.bet" 
+               class="text-xs transition-colors duration-200 text-gray-400 hover:text-gray-200" 
+               hreflang="ru"
+               
+               title="Russian - Русский">
+        Русский
+      </a> · <a href="/ar/domain/stake.bet" 
+               class="text-xs transition-colors duration-200 text-gray-400 hover:text-gray-200" 
+               hreflang="ar"
+               
+               title="Arabic - العربية">
+        العربية
+      </a> · <a href="/tr/domain/stake.bet" 
+               class="text-xs transition-colors duration-200 text-gray-400 hover:text-gray-200" 
+               hreflang="tr"
+               
+               title="Turkish - Türkçe">
+        Türkçe
+      </a></div>
+      </div>
+      <div class="text-center mt-3">
+        <p class="text-xs text-gray-500">
+          18 languages supported for global accessibility
+        </p>
+      </div>
+    </div>
+  
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Format Converters</h3>
+                    <ul class="space-y-2">
+                        <li><a href="/convert/png-to-favicon" class="text-gray-300 hover:text-white">PNG to Favicon</a></li>
+                        <li><a href="/convert/jpg-to-favicon" class="text-gray-300 hover:text-white">JPG/JPEG to Favicon</a></li>
+                        <li><a href="/convert/webp-to-favicon" class="text-gray-300 hover:text-white">WebP to Favicon</a></li>
+                        <li><a href="/convert/svg-to-favicon" class="text-gray-300 hover:text-white">SVG to Favicon</a></li>
+                        <li><a href="/convert/gif-to-favicon" class="text-gray-300 hover:text-white">GIF to Favicon</a></li>
+                        <li><a href="/convert/heic-to-favicon" class="text-gray-300 hover:text-white">HEIC to Favicon</a></li>
+                        <li><a href="/convert/bmp-to-favicon" class="text-gray-300 hover:text-white">BMP to Favicon</a></li>
+                        <li><a href="/convert/tiff-to-favicon" class="text-gray-300 hover:text-white">TIFF to Favicon</a></li>
+                    </ul>
+                </div>
+                <div class="mt-6 pt-6 border-t border-gray-600 text-center text-sm text-gray-400">
+                    &copy; <span id="current-year"></span> webmaster.studio · <a href="/api" class="text-gray-300 hover:text-white">Free Favicon API</a> · <a href="/top" class="text-gray-300 hover:text-white">Top 1000</a> · <a href="/changelog" class="text-gray-300 hover:text-white">Changelog</a> · <a href="https://x.com/we_webmaster" class="text-gray-300 hover:text-white">Follow us on X</a>
+                </div>
+            </div>
+        </footer>
+        <script>document.getElementById('current-year').textContent = new Date().getFullYear();</script>
+    </div>
+
+    <script>
+        // Download favicon function
+        async function downloadFavicon(imageId, domain, size) {
+            const img = document.getElementById(imageId);
+            const imgUrl = img.src;
+            try {
+                const response = await fetch(imgUrl);
+                const blob = await response.blob();
+                const url = window.URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = `${domain}-favicon-${size}.ico`;
+                document.body.appendChild(a);
+                a.click();
+                window.URL.revokeObjectURL(url);
+                document.body.removeChild(a);
+            } catch (error) {
+                console.error('Error downloading favicon:', error);
+                alert('Error downloading favicon. Please try again.');
+            }
+        }
+
+        // Copy URL to clipboard
+        async function copyFaviconUrl(url) {
+            try {
+                await navigator.clipboard.writeText(url);
+                showToast('URL copied to clipboard!');
+            } catch (error) {
+                console.error('Error copying URL:', error);
+            }
+        }
+
+        // Copy text to clipboard
+        async function copyToClipboard(text) {
+            try {
+                await navigator.clipboard.writeText(text.replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"'));
+                showToast('Copied!');
+            } catch (error) {
+                console.error('Error copying text:', error);
+            }
+        }
+
+        // Show toast notification
+        function showToast(message) {
+            const toast = document.createElement('div');
+            toast.className = 'fixed bottom-4 right-4 bg-green-600 text-white px-4 py-2 rounded-lg shadow-lg z-50 transition-opacity';
+            toast.textContent = message;
+            document.body.appendChild(toast);
+            setTimeout(() => {
+                toast.style.opacity = '0';
+                setTimeout(() => document.body.removeChild(toast), 300);
+            }, 2000);
+        }
+
+        // Language selector functionality (reuse from language-selector.js)
+        function toggleLanguageMenu() {
+            const menu = document.getElementById('language-menu');
+            const button = document.getElementById('language-menu-button');
+            if (menu && button) {
+                const isHidden = menu.classList.contains('hidden');
+                
+                if (isHidden) {
+                    menu.classList.remove('hidden');
+                    button.setAttribute('aria-expanded', 'true');
+                } else {
+                    menu.classList.add('hidden');
+                    button.setAttribute('aria-expanded', 'false');
+                }
+            }
+        }
+
+        // Close menu when clicking outside
+        document.addEventListener('click', function(event) {
+            const menu = document.getElementById('language-menu');
+            const button = document.getElementById('language-menu-button');
+            
+            if (menu && button && !button.contains(event.target) && !menu.contains(event.target)) {
+                menu.classList.add('hidden');
+                button.setAttribute('aria-expanded', 'false');
+            }
+        });
+
+        // Close menu on escape key
+        document.addEventListener('keydown', function(event) {
+            if (event.key === 'Escape') {
+                const menu = document.getElementById('language-menu');
+                const button = document.getElementById('language-menu-button');
+                if (menu && button) {
+                    menu.classList.add('hidden');
+                    button.setAttribute('aria-expanded', 'false');
+                    button.focus();
+                }
+            }
+        });
+
+        // Download favicon directly from URL
+        async function downloadFaviconDirect(url, domain, size) {
+            try {
+                const response = await fetch(url);
+                const blob = await response.blob();
+                const downloadUrl = window.URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.href = downloadUrl;
+                a.download = `${domain}-favicon-${size.replace(/[^a-zA-Z0-9]/g, '-')}.ico`;
+                document.body.appendChild(a);
+                a.click();
+                window.URL.revokeObjectURL(downloadUrl);
+                document.body.removeChild(a);
+            } catch (error) {
+                console.error('Error downloading favicon:', error);
+                alert('Error downloading favicon. Please try again.');
+            }
+        }
+
+        // Copy markdown example
+        function copyMarkdownExample() {
+            const markdownText = `![stake.bet favicon](https://favicon.im/stake.bet)
+
+<!-- Different sizes -->
+[![stake.bet favicon](https://favicon.im/stake.bet?larger=true)](https://stake.bet)
+
+<!-- In documentation -->
+The favicon for [stake.bet](https://stake.bet) is:
+![stake.bet favicon](https://favicon.im/stake.bet "stake.bet favicon")`;
+            
+            navigator.clipboard.writeText(markdownText).then(() => {
+                showToast('Copied!');
+            }).catch(err => {
+                console.error('Error copying markdown:', err);
+            });
+        }
+
+    </script>
+</body>
+</html>

@@ -1,5 +1,7 @@
 <script lang="ts">
 	import config from '../game/config';
+	import { stateUrlDerived } from 'state-shared';
+	const social = $derived(stateUrlDerived.social());
 </script>
 
 <div class="rules">
@@ -7,7 +9,7 @@
 
 	<section>
 		<h3>Cluster Pays</h3>
-		<p>Form clusters of 4 or more identical symbols touching horizontally or vertically to win. Wins are paid as a multiplier of your total bet. Winning symbols are removed and new symbols fall in (tumble). Tumbles continue until no new clusters form.</p>
+		<p>Form clusters of 4 or more identical symbols touching horizontally or vertically to win. Wins are valued as a multiplier of your {social ? 'total play' : 'total bet'}. Winning symbols are removed and new symbols fall in (tumble). Tumbles continue until no new clusters form.</p>
 	</section>
 
 	<section>
@@ -34,16 +36,16 @@
 	</section>
 
 	<section>
-		<h3>Buy Bonus</h3>
-		<p>Skip straight to the Cosmic Break bonus for <strong>{config.betModes.bonus.cost}×</strong> your bet.</p>
+		<h3>{social ? 'Get Bonus' : 'Buy Bonus'}</h3>
+		<p>Skip straight to the Cosmic Break bonus for <strong>{config.betModes.bonus.cost}×</strong> your {social ? 'play' : 'bet'}.</p>
 	</section>
 
 	<section>
 		<h3>General</h3>
 		<ul>
 			<li>RTP: {(config.rtp * 100).toFixed(0)}%</li>
-			<li>Max Win: {config.betModes.base.max_win}× bet</li>
-			<li>All wins are multiplied by your total bet.</li>
+			<li>Max Win: {config.betModes.base.max_win}× {social ? 'play' : 'bet'}</li>
+			<li>All wins are multiplied by your {social ? 'total play' : 'total bet'}.</li>
 		</ul>
 	</section>
 
@@ -53,7 +55,7 @@
 	</section>
 
 	<section class="disclaimer">
-		<p>Malfunction voids all pays and plays. A consistent internet connection is required. In the event of a disconnection, reload the game to finish any uncompleted bets. The expected return is calculated over many spins. Animations are not representative of any physical device, and are for illustrative purposes only. TM and © 2025 Stake Engine.</p>
+		<p>Malfunction voids all wins and plays. A consistent internet connection is required. In the event of a disconnection, reload the game to finish any uncompleted rounds. The expected return is calculated over many plays. The game display is not representative of any physical device and is for illustrative purposes only. Winnings are settled according to the amount received from the Remote Game Server and not from events within the web browser. TM and © 2026 Stake Engine.</p>
 	</section>
 </div>
 

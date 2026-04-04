@@ -19,6 +19,10 @@
 				language: stateUrlDerived.lang(),
 			});
 
+			console.log('[AUTH] rgsUrl:', stateUrlDerived.rgsUrl());
+			console.log('[AUTH] sessionID:', stateUrlDerived.sessionID());
+			console.log('[AUTH RESPONSE]', JSON.stringify(authenticateData));
+
 			// error
 			if (authenticateData?.error) throw authenticateData;
 
@@ -66,6 +70,10 @@
 				stateConfig.betMenuOptions = stateConfig.betAmountOptions.filter((_, index) =>
 					MOST_USED_BET_INDEXES.includes(index),
 				);
+
+				if (authenticateData.config.defaultBetLevel) {
+					stateBet.betAmount = authenticateData.config.defaultBetLevel / API_AMOUNT_MULTIPLIER;
+				}
 			}
 
 			// round
